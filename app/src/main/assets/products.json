@@ -1,0 +1,94 @@
+{
+  "items": [
+  {
+    "name":"Woody Intense",
+    "price":200,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender": "women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":350,
+    "type":"SPRAY",
+    "discount":"70",
+    "gender":"women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":250,
+    "type":"SPRAY",
+    "discount":"25",
+    "gender":"women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":210,
+    "type":"SPRAY",
+    "discount":"80",
+    "gender":"women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":200,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":380,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"men",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":190,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"men",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+   {
+    "name":"Woody Intense",
+    "price":420,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"uni",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":270,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"uni",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  },
+  {
+    "name":"Woody Intense",
+    "price":880,
+    "type":"SPRAY",
+    "discount":"30",
+    "gender":"women",
+    "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+  }
+  ]
+}

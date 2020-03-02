@@ -1,4 +1,4 @@
-package application.weatherapi.disha.genova.ui.home;
+package application.weatherapi.disha.genova.ui.home.productList;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,7 +14,6 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import application.weatherapi.disha.genova.R;
 import application.weatherapi.disha.genova.model.Item;
-import application.weatherapi.disha.genova.model.Product;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHolder> {
 
@@ -70,7 +69,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             productName.setText(listItem.getName());
             productPrice.setText(String.format("%d AED", listItem.getPrice()));
             productType.setText(listItem.getType());
-            productImage.setImageResource(R.drawable.spray_image_2x);
+            productImage.setImageResource(R.drawable.spray_image_1);
         }
     }
 }

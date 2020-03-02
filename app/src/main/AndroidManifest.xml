@@ -11,9 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.home.ProductFragment" />
+        <activity android:name=".ui.home.HomeActivity" />
+        <activity android:name=".ui.home.productList.ProductFragment" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ui.home.HomeActivity">
+        <activity android:name=".ui.basic.BasicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -31,7 +31,9 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_margin="5dp"
-                android:src="@drawable/ic_iconfinder_sort_amount_asc_1608405"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:src="@drawable/iconfinder_sort_amount_asc_1608405"
                 />
 
             <Space
@@ -43,6 +45,8 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_margin="5dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
                 android:src="@drawable/ic_iconfinder_settings_430115"
                 />
         </LinearLayout>
@@ -69,4 +73,5 @@
         </androidx.viewpager.widget.ViewPager>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

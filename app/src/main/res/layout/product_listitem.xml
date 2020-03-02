@@ -45,7 +45,7 @@
             android:id="@+id/product_image"
             android:layout_width="134dp"
             android:layout_height="134dp"
-            tools:srcCompat="@drawable/spray_image_2x"
+            tools:srcCompat="@drawable/spray_image_1"
             app:layout_constraintTop_toBottomOf="@id/discount_percentage"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -1,14 +1,13 @@
 package application.weatherapi.disha.genova.ui.home;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import application.weatherapi.disha.genova.ui.home.productList.ProductFragment;
 
 public class ViewPagerAdapter extends FragmentPagerAdapter {
     private static int NUM_ITEMS = 3;
+
 
     public ViewPagerAdapter(FragmentManager fragmentManager) {
         super(fragmentManager);

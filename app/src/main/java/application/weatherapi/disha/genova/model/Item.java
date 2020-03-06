@@ -1,9 +1,10 @@
 
 package application.weatherapi.disha.genova.model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Item
+public class Item implements Serializable
 {
 
     private String name;
@@ -11,6 +12,7 @@ public class Item
     private String type;
     private String discount;
     private String gender;
+    private int quantity = 1;
     private List<String> sizeAvailable = null;
     private String details;
 
@@ -81,4 +83,11 @@ public class Item
         this.details = details;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }

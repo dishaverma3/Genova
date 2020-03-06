@@ -105,7 +105,7 @@ public class ProductFragment extends Fragment {
                         item.getString("discount"),
                         item.getString("gender"),
                         listOfItems,
-                        item.getString("discount"));
+                        item.getString("details"));
 
                 if((title.equalsIgnoreCase(item.getString("gender")) || (item.getString("gender").equalsIgnoreCase("uni"))))
                     productList.add(product);

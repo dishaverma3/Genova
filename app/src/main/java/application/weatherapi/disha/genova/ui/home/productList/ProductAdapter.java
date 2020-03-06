@@ -1,11 +1,14 @@
 package application.weatherapi.disha.genova.ui.home.productList;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.content.Intent;
 
 import java.util.List;
 
@@ -14,6 +17,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import application.weatherapi.disha.genova.R;
 import application.weatherapi.disha.genova.model.Item;
+import application.weatherapi.disha.genova.ui.home.productDetails.productDetailsActivity;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHolder> {
 
@@ -33,8 +37,18 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ProductAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ProductAdapter.ViewHolder holder, final int position) {
         holder.bind(position);
+
+        holder.card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(context, productDetailsActivity.class);
+                i.putExtra("value",list.get(position));
+                i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                context.startActivity(i);
+            }
+        });
     }
 
     @Override
@@ -60,6 +74,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             productPrice = itemView.findViewById(R.id.product_price);
             cartAdd = itemView.findViewById(R.id.add_cart_icon);
             favouriteIcon = itemView.findViewById(R.id.fav_icon);
+
+
         }
 
         public void bind(int position) {

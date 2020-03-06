@@ -6,6 +6,7 @@
     "type":"SPRAY",
     "discount":"30",
     "gender": "women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
     "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
@@ -15,6 +16,7 @@
     "type":"SPRAY",
     "discount":"70",
     "gender":"women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
     "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
@@ -24,6 +26,7 @@
     "type":"SPRAY",
     "discount":"25",
     "gender":"women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
     "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
@@ -33,6 +36,7 @@
     "type":"SPRAY",
     "discount":"80",
     "gender":"women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
     "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
@@ -42,8 +46,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
   {
     "name":"Woody Intense",
@@ -51,8 +56,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"men",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
   {
     "name":"Woody Intense",
@@ -60,8 +66,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"men",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
    {
     "name":"Woody Intense",
@@ -69,8 +76,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"uni",
+     "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
   {
     "name":"Woody Intense",
@@ -78,8 +86,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"uni",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   },
   {
     "name":"Woody Intense",
@@ -87,8 +96,9 @@
     "type":"SPRAY",
     "discount":"30",
     "gender":"women",
+    "quantity" : "",
     "sizeAvailable": ["90 ml", "100 ml", "120 ml", "150 ml"],
-    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+    "details":" lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
   }
   ]
 }

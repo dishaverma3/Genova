@@ -7,17 +7,20 @@ import java.util.List;
 public class Item implements Serializable
 {
 
+    private int id;
     private String name;
     private Integer price;
     private String type;
     private String discount;
     private String gender;
+    private boolean isFavourite = false;
     private int quantity = 1;
     private List<String> sizeAvailable = null;
     private String details;
 
-    public Item(String name, Integer price, String type, String discount, String gender, List<String> sizeAvailable, String details) {
+    public Item(int id, String name, Integer price, String type, String discount, String gender, List<String> sizeAvailable, String details) {
         super();
+        this.id = id;
         this.name = name;
         this.price = price;
         this.type = type;
@@ -89,5 +92,21 @@ public class Item implements Serializable
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
+    }
+
+    public boolean isFavourite() {
+        return isFavourite;
+    }
+
+    public void setFavourite(boolean favourite) {
+        isFavourite = favourite;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

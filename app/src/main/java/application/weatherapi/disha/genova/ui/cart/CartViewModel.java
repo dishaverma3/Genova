@@ -1,4 +1,4 @@
-package application.weatherapi.disha.genova.ui.home.productList;
+package application.weatherapi.disha.genova.ui.cart;
 
 import android.app.Application;
 import android.content.Context;
@@ -16,18 +16,22 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 import application.weatherapi.disha.genova.model.Item;
 
-public class productViewmodel extends AndroidViewModel {
+public class CartViewModel extends AndroidViewModel {
 
     private Context context;
     MutableLiveData<String> jsonFromFile = new MutableLiveData<>();
     ArrayList<Item> productList = new ArrayList<>();
+    ArrayList<Integer> itemInCart = new ArrayList<>();
     MutableLiveData<Boolean> setList = new MutableLiveData<>();
+    Integer price = 0;
 
-    public productViewmodel(@NonNull Application application) {
+
+    public CartViewModel(@NonNull Application application) {
         super(application);
 
         context = application.getApplicationContext();
     }
+
 
     public void loadJSONFromAsset() {
         try {
@@ -42,7 +46,7 @@ public class productViewmodel extends AndroidViewModel {
         }
     }
 
-    void getProductsData(String title) {
+    void getProductsData() {
         try {
             JSONObject productJson = new JSONObject(jsonFromFile.getValue());
             JSONArray itemsJson = productJson.getJSONArray("items");
@@ -64,8 +68,11 @@ public class productViewmodel extends AndroidViewModel {
                         listOfItems,
                         item.getString("discount"));
 
-                if((title.equalsIgnoreCase(item.getString("gender")) || (item.getString("gender").equalsIgnoreCase("uni"))))
+                if(itemInCart.contains(item.getInt("id")))
+                {
                     productList.add(product);
+                    price = price + product.getPrice();
+                }
             }
 
             setList.setValue(true);
@@ -87,4 +94,3 @@ public class productViewmodel extends AndroidViewModel {
         }
     }
 }
-

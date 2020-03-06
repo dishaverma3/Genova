@@ -3,4 +3,32 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tile_array">
+        <item>Title</item>
+        <item>Mr.</item>
+        <item>Mrs.</item>
+        <item>Ms.</item>
+    </string-array>
+
+    <string-array name="city_array">
+        <item>Select City</item>
+        <item>DUBAI</item>
+        <item>ABU SHABI</item>
+        <item>SHARJAH</item>
+    </string-array>
+
+    <string-array name="country_code_array">
+        <item>Select Code</item>
+        <item>050</item>
+        <item>055</item>
+        <item>058</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>Select Country</item>
+        <item>United Arab Emirate</item>
+    </string-array>
+
+
 </resources>

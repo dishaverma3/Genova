@@ -23,6 +23,8 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
 
     List<Item> list;
     Context context;
+    boolean isAdded = false;
+
 
     public ProductAdapter(List<Item> list, Context context) {
         this.list = list;
@@ -75,17 +77,49 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             cartAdd = itemView.findViewById(R.id.add_cart_icon);
             favouriteIcon = itemView.findViewById(R.id.fav_icon);
 
-
         }
 
         public void bind(int position) {
-            Item listItem = list.get(position);
+            final Item listItem = list.get(position);
 
             discount.setText(String.format("%s%% Off", listItem.getDiscount()));
             productName.setText(listItem.getName());
             productPrice.setText(String.format("%d AED", listItem.getPrice()));
             productType.setText(listItem.getType());
             productImage.setImageResource(R.drawable.spray_image_1);
+
+
+            favouriteIcon.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(!listItem.isFavourite())
+                    {
+                        favouriteIcon.setImageResource(R.drawable.ic_favorite_black_24dp);
+                        listItem.setFavourite(true);
+                    }
+                    else {
+                        favouriteIcon.setImageResource(R.drawable.ic_favorite_border_black_24dp);
+                        listItem.setFavourite(false);
+                    }
+                }
+            });
+
+            cartAdd.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (!isAdded)
+                    {
+                        cartAdd.setImageResource(R.drawable.ic_check_circle_black_24dp);
+                        isAdded = true;
+                    }
+                    else {
+                        cartAdd.setImageResource(R.drawable.ic_iconfinder_shopping_bag_172551);
+                        isAdded = false;
+                    }
+                }
+            });
+
+            productImage.setImageResource(context.getResources().getIdentifier("spray_image_"+listItem.getId(),"drawable",context.getPackageName()));
         }
     }
 }

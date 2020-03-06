@@ -11,10 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.cart.CartActivity"></activity>
-        <activity
-            android:name=".ui.home.productDetails.productDetailsActivity"
-            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.checkout.CheckoutActivity"></activity>
+        <activity android:name=".ui.cart.CartActivity" />
+        <activity android:name=".ui.home.productDetails.productDetailsActivity" />
         <activity android:name=".ui.home.HomeActivity" />
         <activity android:name=".ui.home.productList.ProductFragment" />
         <activity android:name=".MainActivity" />

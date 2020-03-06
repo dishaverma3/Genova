@@ -99,6 +99,7 @@ public class ProductFragment extends Fragment {
                 viewModel.getAllSizes(listOfItems,item);
 
                 Item product = new Item(
+                        item.getInt("id"),
                         item.getString("name"),
                         item.getInt("price"),
                         item.getString("type"),
